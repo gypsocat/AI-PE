@@ -1,0 +1,16 @@
+.anchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* 相对定位的基准点 */
+    overflow: hidden; /* 隐藏溢出内容 */
+    height: 100vh; /* 设置高度为视口高度 */
+}
+
+#login_table {
+    position: absolute; /* 相对于父元素定位 */
+    top: 50%; /* 容器顶部位于父元素的中间位置 */
+    left: 50%; /* 容器左侧位于父元素的中间位置 */
+    transform: translate(-50%, -50%); /* 通过负的50%偏移使容器居中 */
+    z-index: 9999; /* 确保容器在其他内容之上 */
+}

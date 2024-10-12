@@ -1,0 +1,1653 @@
+/* Normal desktop :1920px. */
+
+/* Normal desktop :1400px. */
+
+/* ========why Area responsive=========== */
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .why-choose-section .section-title p {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .blog-section .section-title h2 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1600px) {
+  .counter-title h1 {
+    font-size: 70px;
+  }
+}
+
+/* Normal desktop :1300px. */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .wevian_menu > ul > li {
+    margin-left: 32px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .header-cart {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .header-src-btn {
+    margin-left: 12px;
+  }
+}
+
+/* ==========slider-section============= */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .slider-title h1 {
+    font-size: 50px;
+  }
+}
+
+/* ==========feature-section============= */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .feature-single-box {
+    padding: 55px 17px 0;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .section-title h4 a {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .feature2-icon {
+    top: 300px;
+  }
+}
+
+/* ========feature Area responsive=========== */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .section-title h2 {
+    font-size: 34px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .features-button.mt-60 {
+    margin: 0;
+  }
+}
+
+/* ========service Area responsive=========== */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .service-section .section-button2 span {
+    margin-left: 52px;
+  }
+}
+
+/* ========team Area responsive=========== */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .team-content {
+    left: 60px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .team-section .section-title h2 {
+    width: 100%;
+  }
+}
+
+/* ========testimonial Area responsive=========== */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .testimonial-disc p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .testimonial-section .owl-dots {
+    top: 360px;
+  }
+}
+
+/* ========blog Area responsive=========== */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .blog-section .section-title h2 {
+    width: 100%;
+  }
+}
+
+/* ========why Area responsive=========== */
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .why-choose-section .section-title p {
+    width: 75%;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .counter-title h1 {
+    font-size: 65px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1399px) {
+  .form-box select {
+    width: 35%;
+  }
+}
+
+/* Normal desktop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .wevian_menu > ul > li {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .header-cart {
+    margin-left: 30px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .header-src-btn {
+    margin-left: 12px;
+  }
+}
+
+/* ========slide Area responsive=========== */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .slider-title h1 {
+    font-size: 50px;
+  }
+}
+
+/* ========feature-section=========== */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .feature-single-box {
+    padding: 55px 15px 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .feature2-icon {
+    top: 310px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .section-title h2 {
+    font-size: 31px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .features-button.mt-60 {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .feature-button a i {
+    left: 110px;
+  }
+}
+
+/* ==========service-section============= */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .service-single-box {
+    padding: 60px 25px 40px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .service-section .section-button2 span {
+    margin-left: 60px;
+  }
+}
+
+/* ==========awaids-section============= */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .why-choose-section .section-title p {
+    width: 75%;
+  }
+}
+
+/* ==========team-section============= */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .team-section .section-title h2 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .team-content {
+    left: 75px;
+  }
+}
+
+/* ==========testimonial-section============= */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .testimonial-disc p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .testimonial-section .owl-dots {
+    top: 360px;
+  }
+}
+
+/* ==========blog-section============= */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .blog-section .section-title h2 {
+    font-size: 40px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .blog-section .section-button2 span {
+    margin-left: 80px;
+  }
+}
+
+/* ========blog-dtails Area responsive=========== */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  blockquote {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .counter-title h1 {
+    font-size: 60px;
+  }
+}
+
+/* ========shop Area responsive=========== */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .shop-disc p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .shop-two-section .section-title p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .form-box select {
+    width: 35%;
+  }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .wevian_menu > ul > li {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-cart {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header-src-btn {
+    margin-left: 12px;
+  }
+}
+
+/* ========silder-responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .slider-title h1 {
+    font-size: 45px;
+  }
+}
+
+/* ========feature Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .feature-single-box {
+    padding: 55px 10px 0;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-title h4 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .feature2-icon {
+    top: 312px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .feature-button a i {
+    left: 95px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .feature-two-box:hover .feature-button a i {
+    bottom: 100px;
+  }
+}
+
+/* ==========service-section============= */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-title h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-single-box {
+    padding: 60px 15px 40px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service-section .section-button2 span {
+    margin-left: 60px;
+  }
+}
+
+/* ========why Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .why-choose-section .section-title p {
+    width: 90%;
+  }
+}
+
+/* ========marquee Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .marquee-section .marquee-block .content-box .title a {
+    font-size: 50px;
+  }
+}
+
+/* ========team Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .team-section .section-title h2 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .team-content {
+    left: 45px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .team-social {
+    left: 65px;
+  }
+}
+
+/* ========testimonial Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .testimonial-disc p {
+    width: 100%;
+  }
+}
+
+/* ========blog Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .blog-section .section-title h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .blog-section .section-button2 span {
+    margin-left: 70px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .section-button2 a {
+    font-size: 14px;
+  }
+}
+
+/* ==========breadcumb-section============= */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .breadcumb-title h1 {
+    font-size: 40px;
+  }
+}
+
+/* =======about Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-thumb img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .about-section .section-title p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .ab-content h4 {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .ab-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+
+/* =======contact Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contacts-single-box {
+    padding: 55px 8px;
+  }
+}
+
+/* ========blog-dtails Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  blockquote {
+    font-size: 18px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .rpost-content h4 a {
+    font-size: 14px;
+  }
+}
+
+/* ========contact Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .contact-section .section-title h2 {
+    font-size: 35px;
+  }
+}
+
+/* ========counter Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .counter-title h1 {
+    font-size: 60px;
+  }
+}
+
+/* ========shop Area responsive=========== */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .shop-disc p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .shop-two-section .section-title p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .form-box select {
+    width: 42%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .theme-two-section .section-title h2 {
+    font-size: 35px;
+  }
+}
+
+/* Tablet desktop :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .sticky {
+    position: absolute !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .wevian_nav_manu {
+    display: none;
+  }
+}
+
+/* ========slide-responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider-title h5 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .slider-title h1 {
+    font-size: 40px;
+  }
+}
+
+/* ==========service-section============= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-single-box {
+    padding: 60px 23px 40px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service-section .section-button2 span {
+    margin-left: 70px;
+  }
+}
+
+/* ==========feature-section============= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-title h4 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .feature2-icon {
+    top: 245px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-title h2 {
+    font-size: 35px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .features-button.mt-60 {
+    margin: 0 0 15px;
+    text-align: left;
+  }
+}
+
+/* ==========testimonial-section============= */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .testimonial-disc p {
+    font-size: 17px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .testimonial-section .owl-dots {
+    top: 370px;
+  }
+}
+
+/* ========team-responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .team-section .section-title h2 {
+    font-size: 28px;
+    width: 100%;
+  }
+}
+
+/* ========why-responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .why-choose-section .section-title p {
+    width: 100%;
+  }
+}
+
+/* ========blog-responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-section .section-title h2 {
+    font-size: 32px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-content h4 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .blog-section .section-button2 span {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-button2 a {
+    font-size: 14px;
+  }
+}
+
+/* ========marquee-responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .marquee-section .marquee-block .content-box .title a {
+    font-size: 50px;
+  }
+}
+
+/* =======about Area responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-thumb img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-section .section-title p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .ab-content p {
+    width: 100%;
+  }
+}
+
+/* =======breadcumb Area responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .breadcumb-title h1 {
+    font-size: 40px;
+  }
+}
+
+/* ========blog-dtails Area responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  blockquote {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+/* ========contact Area responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .contact-section .section-title h2 {
+    font-size: 35px;
+  }
+}
+
+/* ========counter Area responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .counter-title h1 {
+    font-size: 60px;
+  }
+}
+
+/* ========shop Area responsive=========== */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .shop-disc p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .theme-two-section .section-title h2 {
+    font-size: 35px;
+  }
+}
+
+/* Tablet desktop :600px. */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .sticky {
+    position: absolute !important;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .wevian_nav_manu {
+    display: none;
+  }
+}
+
+/* ========slide-responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .slider-title h5 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .slider-title h1 {
+    font-size: 35px;
+  }
+}
+
+/* ==========service-section============= */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .service-section .section-title h4 a {
+    width: 100%;
+  }
+}
+
+/* ==========feature-section============= */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .feature2-icon {
+    top: 240px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .section-title h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .features-button.mt-60 {
+    text-align: left;
+    margin: 0 0 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .feature-button a i {
+    left: 280px;
+  }
+}
+
+/* ==========testimonial-section============= */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .testimonial-disc p {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .testimonial-section .owl-dots {
+    top: 375px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .testimonial-content h4 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .testimonial-content p {
+    font-size: 15px;
+  }
+}
+
+/* ========team-responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .team-section .section-title h2 {
+    font-size: 28px;
+    width: 100%;
+  }
+}
+
+/* ========why-responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .why-choose-section .section-title p {
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .why-choose-content p {
+    width: 100%;
+  }
+}
+
+/* ========blog-responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .blog-section .section-title h2 {
+    font-size: 24px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .blog-content h4 a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .section-button2 a {
+    font-size: 14px;
+  }
+}
+
+/* ========marquee-responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .marquee-section .marquee-block .content-box .title a {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .section-title h5 {
+    font-size: 16px;
+  }
+}
+
+/* =======footer Area responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .footer-disc p {
+    font-size: 15px;
+  }
+}
+
+/* =======about Area responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .about-thumb img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .about-section .section-title p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .ab-content p {
+    width: 100%;
+  }
+}
+
+/* =======breadcumb Area responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .breadcumb-title h1 {
+    font-size: 35px;
+  }
+}
+
+/* ========blog-dtails Area responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .blogs-content h4 a {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  blockquote {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .rpost-content h4 a {
+    font-size: 18px;
+  }
+}
+
+/* ========contact-responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .contact-section .section-title h2 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .contact-content p {
+    font-size: 15px;
+  }
+}
+
+/* ========counter Area responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .counter-title h1 {
+    font-size: 55px;
+  }
+}
+
+/* ========shop Area responsive=========== */
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .shop-disc p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .form-box select {
+    width: 36%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .theme-two-section .section-title h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/* small mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .sticky {
+    position: absolute !important;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .wevian_nav_manu {
+    display: none;
+  }
+}
+
+/* ========slide-responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .slider-area {
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .slider-title h5 {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .slider-title h1 {
+    font-size: 30px;
+  }
+}
+
+/* ========marque-responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .marquee-section .marquee-block .content-box .title a {
+    font-size: 40px;
+  }
+}
+
+/* ==========service-section============= */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .service-section .section-title h4 a {
+    width: 100%;
+  }
+}
+
+/* ========why-responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .why-choose-section .section-title p {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .why-choose-content p {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .why-choose-content h4 {
+    font-size: 22px;
+  }
+}
+
+/* ==========feature-section============= */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .section-title h4 a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .section-title h5 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .feature2-icon {
+    top: 225px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .section-title h2 {
+    font-size: 25px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .features-button.mt-60 {
+    text-align: left;
+    margin: 0 0 20px;
+  }
+}
+
+/* ==========testimonial-section============= */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .testimonial-disc p {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .testimonial-icon img {
+    width: 15%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .testimonial-content h4 {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .testimonial-content p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .testimonial-section .owl-dots {
+    top: 365px;
+  }
+}
+
+/* ========team-responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .team-section .section-title h2 {
+    width: 100%;
+  }
+}
+
+/* ========blog-responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .blog-section .section-title h2 {
+    font-size: 24px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .blog-section .section-button2 span {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .section-button2 a {
+    font-size: 14px;
+  }
+}
+
+/* ========footer-responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .footer-disc p {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .footer-bottom-content h4 {
+    font-size: 14px;
+  }
+}
+
+/* =======about Area responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .about-thumb img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .about-section .section-title p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .ab-content p {
+    width: 100%;
+  }
+}
+
+/* =======breadcumb Area responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .breadcumb-title h1 {
+    font-size: 35px;
+  }
+}
+
+/* ========blog-dtails Area responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .blogs-content h4 a {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  blockquote {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .rpost-content h4 a {
+    font-size: 16px;
+  }
+}
+
+/* ========contact-responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .contact-section .section-title h2 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .contact-content p {
+    font-size: 15px;
+  }
+}
+
+/* ========counter Area responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .counter-title h1 {
+    font-size: 50px;
+  }
+}
+
+/* ========shop Area responsive=========== */
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .shop-disc p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .section-btn2 a span {
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .nav-item {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .mission-description {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .form-box select {
+    width: 42%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .theme-two-section .section-title h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}
+
+/* small mobile :320px. */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .sticky {
+    position: absolute !important;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .wevian_nav_manu {
+    display: none;
+  }
+}
+
+/* ========slide-responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .slider-area {
+    height: 560px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .slider-title h5 {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .slider-title h1 {
+    font-size: 25px;
+  }
+}
+
+/* ========why-responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .why-choose-section .section-title p {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .why-choose-content h4 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .why-choose-content p {
+    font-size: 15px;
+    width: 100%;
+  }
+}
+
+/* ==========service-section============= */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .service-single-box {
+    padding: 60px 15px 40px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .service-section .section-title h4 a {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .service-section .section-button2 span {
+    margin-left: 55px;
+  }
+}
+
+/* ==========feature-section============= */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .feature-single-box {
+    padding: 55px 15px 0;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .section-title h4 a {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .feature-disc p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .feature2-icon {
+    top: 238px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .section-title h2 {
+    font-size: 25px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .features-button.mt-60 {
+    text-align: left;
+    margin: 0 0 20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .feature-button a i {
+    left: 125px;
+  }
+}
+
+/* ==========testimonial-section============= */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .testimonial-disc p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .testimonial-icon img {
+    width: 20%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .testimonial-section .owl-dots {
+    left: 38%;
+    top: 470px;
+  }
+}
+
+/* ========team-responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .team-section .section-title h2 {
+    width: 100%;
+  }
+}
+
+/* ========marqure-responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .marquee-section .marquee-block .content-box .title a {
+    font-size: 45px;
+  }
+}
+
+/* ========blog-responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .blog-section .section-title h2 {
+    font-size: 25px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .blog-content h4 a {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .blog-section .section-button2 span {
+    margin-left: 65px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .section-button2 a {
+    font-size: 13px;
+  }
+}
+
+/* ========footer-responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-disc p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .footer-bottom-content h4 {
+    font-size: 14px;
+  }
+}
+
+/* =======about Area responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .about-thumb img {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .about-section .section-title p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .ab-content p {
+    width: 100%;
+  }
+}
+
+/* =======breadcumb Area responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .breadcumb-title h1 {
+    font-size: 35px;
+  }
+}
+
+/* ========blog-dtails Area responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .blogs-content h4 a {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  blockquote {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .blogs-content p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .rpost-content h4 a {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .shop-details-comment-content p {
+    font-size: 14px;
+  }
+}
+
+/* ========contact-responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .contact-section .section-title h2 {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .contacts-single-box {
+    padding: 55px 10px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .contact-content p {
+    font-size: 15px;
+  }
+}
+
+/* ========counter Area responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .counter-title h1 {
+    font-size: 40px;
+  }
+}
+
+/* ========shop Area responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .shop-disc p {
+    font-size: 16px;
+  }
+}
+
+/* ========shop Area responsive=========== */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .shop-disc p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .section-btn2 a span {
+    margin-left: 45px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .nav-item {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .mission-description {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .review-disc p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .form-box select {
+    margin-top: 20px;
+    width: 64%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .theme-two-section .section-title h2 {
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+}
+

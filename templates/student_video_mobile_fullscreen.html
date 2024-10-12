@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>智训翼体：基于飞桨AI的云边端协同体育教学系统 - Brand</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="../static/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../static/css/chat.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+<!-- ======================================= -->
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    #video-container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #canvas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) ;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+    }
+
+    #component-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+    }
+
+    .btn {
+        margin-right: 11px;
+    }
+
+    #suggestion {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #suggestion1 {
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #timer, #counter {
+        font-size: 16px;
+        color: white;
+    }
+</style>
+
+</head>
+
+<body id="page-top">
+    <div id="video-container"> 
+        <canvas id="canvas"></canvas>
+        <div id="component-container">
+            <button id="startButton" class="btn btn-primary btn-sm" type="submit" style="margin-left: 11px;"
+            onclick="startButtonClicked();">开始</button>
+            <button id="pauseButton" class="btn btn-primary btn-sm" type="submit" style="margin-left: 11px;"
+                onclick="pauseButtonClicked();">暂停</button>
+            <button id="resetButton" class="btn btn-primary btn-sm" type="submit" style="margin-left: 11px;"
+                onclick="resetButtonClicked();">重置</button>
+            <!-- <button id="fullscreenButton" class="btn btn-primary btn-sm" type="submit" style="margin-left: 11px;"
+                onclick="fullscreenButtonClicked();">全屏</button> -->
+        </div>
+
+
+        <div class="card-body">
+            <div class="row align-items-center no-gutters">
+                <div class="text-uppercase fw-bold text-light mb-1">
+                    <span style="font-size: 16px;">
+                        <!-- <p id="suggestion">无</p> -->
+                        <p id="suggestion1">手肘角度过小，还原时请呈直臂悬垂姿势</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="background-color:  rgba(0, 0, 0, 0.5);width: 25%;">
+            <div class="card-body">
+                <div class="row align-items-center no-gutters">
+                    <div class="text-uppercase fw-bold text-light mb-1"><i class="fas fa-stopwatch fa-2x text-Light"></i><span style="font-size: 16px;">   时间：</span><span id="timer1" style="color: white;">01:00</span></div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row align-items-center no-gutters">
+                    <div class="text-uppercase fw-bold text-light mb-1"><i class="fas fa-clipboard fa-2x text-light"></i><span style="font-size: 16px;">   计数：</span><span id="count" >0</span></div>
+                    <div class="col-auto"></i></div>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+<script src="../static/js/chart.min.js"></script>
+<script src="../static/js/bs-init.js"></script>
+<script src="../static/js/chat.js"></script>
+<script src="../static/js/table.js"></script>
+<script src="../static/js/theme.js"></script>
+<script src="../static/js/video.js"></script>
+<!-- <script src="../static/js/bootstrap/js/bootstrap.min.js"></script> -->
+<script src="../static/js/js/bs-init.js"></script>
+<script src="../static/js/profile.js"></script>
+<script src="../static/js/student.js"></script>
+<script src="../static/js/video.js"></script>
+<script>
+     // 获取用户摄像头
+     navigator.mediaDevices.getUserMedia({ video: true })
+            .then(stream => {
+                const video = document.getElementById('canvas');
+                const ctx = video.getContext('2d');
+                // 将视频流绑定到 canvas 元素上
+                video.width = window.innerWidth;
+                video.height = window.innerHeight;
+                ctx.scale(-1, 1); // 水平翻转
+                setInterval(() => {
+                    ctx.drawImage(video, 0, 0, video.width, video.height);
+                }, 1000 / 30); // 每秒绘制30帧
+            })
+            .catch(error => {
+                console.error('获取摄像头失败:', error);
+            });
+</script>
+</html>

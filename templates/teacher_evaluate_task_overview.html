@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>智训翼体：基于飞桨AI的云边端协同体育教学系统</title>
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+    <link rel="stylesheet" href="../static/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="../static/css/chat.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/Bootstrap-Calendar.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 navbar-dark" style="--bs-primary: #4e73df;--bs-primary-rgb: 78,115,223;">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-laugh-wink"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>智训翼体</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar-1">
+                    <li class="nav-item"><a class="nav-link" href="/teacher_profile"><i class="fas fa-user"></i><span>个人中心</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/teacher_class_profile"><i class="far fa-list-alt"></i><span>班级信息</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/teacher_visualization"><i class="fas fa-tachometer-alt"></i><span>可视化管理</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/teacher_chat"><i class="fas fa-robot"></i><span>教案生成</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/teacher_assign_task"><i class="fas fa-table"></i><span>发布任务</span></a></li>
+                    <li class="nav-item"><a class="nav-link active" href="/teacher_evaluate_task_overview"><i class="fas fa-check fa-solid fa-beat"></i><span>作业批改</span></a></li>
+                </ul>
+                <div class="text-center d-none d-md-inline"><button class="btn rounded-circle border-0" id="sidebarToggle" type="button"></button></div>
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-expand bg-white shadow mb-4 topbar static-top navbar-light">
+                    <div class="container-fluid"><button class="btn btn-link d-md-none rounded-circle me-3" id="sidebarToggleTop" type="button"><i class="fas fa-bars"></i></button>
+                        <form class="d-none d-sm-inline-block me-auto ms-md-3 my-2 my-md-0 mw-100 navbar-search">
+                            <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ..."><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                        </form>
+                        <ul class="navbar-nav flex-nowrap ms-auto">
+                            <li class="nav-item dropdown d-sm-none no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><i class="fas fa-search"></i></a>
+                                <div class="dropdown-menu dropdown-menu-end p-3 animated--grow-in" aria-labelledby="searchDropdown">
+                                    <form class="me-auto navbar-search w-100">
+                                        <div class="input-group"><input class="bg-light form-control border-0 small" type="text" placeholder="Search for ...">
+                                            <div class="input-group-append"><button class="btn btn-primary py-0" type="button"><i class="fas fa-search"></i></button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">3+</span><i class="fas fa-bell fa-fw"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
+                                        <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-primary icon-circle"><i class="fas fa-file-alt text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 12, 2019</span>
+                                                <p>A new monthly report is ready to download!</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-success icon-circle"><i class="fas fa-donate text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 7, 2019</span>
+                                                <p>$290.29 has been deposited into your account!</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="me-3">
+                                                <div class="bg-warning icon-circle"><i class="fas fa-exclamation-triangle text-white"></i></div>
+                                            </div>
+                                            <div><span class="small text-gray-500">December 2, 2019</span>
+                                                <p>Spending Alert: We've noticed unusually high spending for your account.</p>
+                                            </div>
+                                        </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown no-arrow mx-1">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="badge bg-danger badge-counter">7</span><i class="fas fa-envelope fa-fw"></i></a>
+                                    <div class="dropdown-menu dropdown-menu-end dropdown-list animated--grow-in">
+                                        <h6 class="dropdown-header">alerts center</h6><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="../static/img/avatars/avatar4.jpeg">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Hi there! I am wondering if you can help me with a problem I've been having.</span></div>
+                                                <p class="small text-gray-500 mb-0">Emily Fowler - 58m</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="../static/img/avatars/avatar2.jpeg">
+                                                <div class="status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>I have the photos that you ordered last month!</span></div>
+                                                <p class="small text-gray-500 mb-0">Jae Chun - 1d</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="../static/img/avatars/avatar3.jpeg">
+                                                <div class="bg-warning status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Last month's report looks great, I am very happy with the progress so far, keep up the good work!</span></div>
+                                                <p class="small text-gray-500 mb-0">Morgan Alvarez - 2d</p>
+                                            </div>
+                                        </a><a class="dropdown-item d-flex align-items-center" href="#">
+                                            <div class="dropdown-list-image me-3"><img class="rounded-circle" src="../static/img/avatars/avatar5.jpeg">
+                                                <div class="bg-success status-indicator"></div>
+                                            </div>
+                                            <div class="fw-bold">
+                                                <div class="text-truncate"><span>Am I a good boy? The reason I ask is because someone told me that people say this to all dogs, even if they aren't good...</span></div>
+                                                <p class="small text-gray-500 mb-0">Chicken the Dog · 2w</p>
+                                            </div>
+                                        </a><a class="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
+                                    </div>
+                                </div>
+                                <div class="shadow dropdown-list dropdown-menu dropdown-menu-end" aria-labelledby="alertsDropdown"></div>
+                            </li>
+                            <div class="d-none d-sm-block topbar-divider"></div>
+                            <li class="nav-item dropdown no-arrow">
+                                <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small">郭江</span><img class="border rounded-circle img-profile" src="../static/img/dogs/image3.jpeg"></a>
+                                    <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="#"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Settings</a><a class="dropdown-item" href="#"><i class="fas fa-list fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Activity log</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0">作业批改</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 offset-lg-1 mb-4">
+                            <div class="card shadow mb-4"></div>
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="text-primary fw-bold m-0">目前已提交 11 人，任务完成进度：40.7%</h6>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                    <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col">
+                                                <div class="row align-items-center no-gutters">
+                                                    <div class="col-lg-8 me-2">
+                                                        <h6 class="mb-0"><strong>学号：02006001</strong></h6><span class="text-xs">提交时间：2024/04/07&nbsp; 10:30</span>
+                                                    </div>
+                                                    <div class="col">
+                                                        <p style="font-size: 12px;">共提交3份运动记录</p>
+                                                    </div>
+                                                    <div class="col-auto">
+                                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1"></label></div>
+                                                        <div></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006003</strong></h6><span class="text-xs">提交时间：2024/04/09&nbsp; 12:30</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交4份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3"></label></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006004</strong></h6><span class="text-xs">提交时间：2024/04/18&nbsp; 15:39</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交7份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="formCheck-4"></label></div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006006</strong></h6><span class="text-xs">提交时间：2024/04/15&nbsp; 8:29</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交5份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-11"><label class="form-check-label" for="formCheck-11"></label></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006010</strong></h6><span class="text-xs">提交时间：2024/04/10&nbsp; 18:48</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交6份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-10"><label class="form-check-label" for="formCheck-10"></label></div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006012</strong></h6><span class="text-xs">提交时间：2024/04/25&nbsp; 20:20</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交8份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-9"><label class="form-check-label" for="formCheck-9"></label></div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006017</strong></h6><span class="text-xs">提交时间：2024/04/09&nbsp; 9:58</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交4份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-8"></label></div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006018</strong></h6><span class="text-xs">提交时间：2024/04/30&nbsp; 17:07</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交14份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-7"><label class="form-check-label" for="formCheck-7"></label></div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006022</strong></h6><span class="text-xs">提交时间：2024/04/14&nbsp; 00:37</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交7份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6"></label></div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006025</strong></h6><span class="text-xs">提交时间：2024/04/18&nbsp; 13:42</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交11份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-5"></label></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <a href="/teacher_evaluate_task_detail" style="text-decoration: none; color: inherit";>
+                                        <div class="row align-items-center no-gutters">
+                                            <div class="col-lg-8 me-2">
+                                                <h6 class="mb-0"><strong>学号：02006028</strong></h6><span class="text-xs">提交时间：2024/04/27&nbsp; 16:00</span>
+                                            </div>
+                                            <div class="col">
+                                                <p style="font-size: 12px;">共提交15份运动记录</p>
+                                            </div>
+                                            <div class="col-auto">
+                                                <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-2"><label class="form-check-label" for="formCheck-2"></label></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer" style="padding-top: 11px;">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © AIPE ChatGym 2024</span></div>
+                </div>
+            </footer>
+        </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    </div>
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../static/js/bs-init.js"></script>
+    <script src="../static/js/chat.js"></script>
+    <script src="../static/js/table.js"></script>
+    <script src="../static/js/theme.js"></script>
+    <script src="../static/js/video.js"></script>
+    <script src="../static/js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../static/js/js/bs-init.js"></script>
+    <script src="../static/js/class_detail.js"></script>
+    <script src="../static/js/login.js"></script>
+    <script src="../static/js/profile.js"></script>
+    <script src="../static/js/student.js"></script>
+    <script src="../static/js/submit_task_progress.js"></script>
+</body>
+
+</html>

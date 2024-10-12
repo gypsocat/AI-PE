@@ -1,0 +1,148 @@
+.darkmode {
+  background-color: rgb(10, 10, 10);
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.darkmode h1 {
+  color: #fff !important;
+}
+
+.darkmode h2 {
+  color: #fff !important;
+}
+
+.darkmode h3 {
+  color: #fff !important;
+}
+
+.darkmode h4 {
+  color: #fff !important;
+}
+
+.darkmode h4 a {
+  color: #fff !important;
+}
+
+.darkmode h5 {
+  color: #fff !important;
+}
+
+.darkmode a {
+  color: #fff !important;
+}
+
+.darkmode p {
+  color: #fff !important;
+}
+
+.darkmode .feature-section {
+  background-color: rgb(32, 32, 32);
+}
+
+.darkmode .feature-icon, .darkmode .why-thumb {
+  filter: invert(1);
+}
+
+.darkmode .feature2-icon {
+  filter: invert(1);
+}
+
+.darkmode .shop-cart ul li i {
+  color: rgb(32, 32, 32) !important;
+}
+
+.darkmode .shops-cart span {
+  color: rgb(32, 32, 32) !important;
+}
+
+.darkmode .section-button a:hover, .darkmode .features-button a:hover, .darkmode .section-button2 a:hover, .darkmode .section-btn a:hover {
+  color: rgb(32, 32, 32) !important;
+}
+
+.darkmode .blog-section .section-button2 a:hover {
+  color: #fff !important;
+}
+
+.darkmode .section-title span {
+  color: #fff !important;
+}
+
+.darkmode .service-number span {
+  color: #fff !important;
+  border: 1px solid #fff;
+}
+
+.darkmode .footer-form button {
+  color: #fff !important;
+}
+
+.darkmode blockquote {
+  color: #fff !important;
+}
+
+.darkmode .form-box select {
+  color: #fff !important;
+}
+
+.darkmode input.form-field:not([type="submit"]):not([type="checkbox"]):not( [type="radio"] ):not([type="range"])::placeholder {
+  color: #fff !important;
+}
+
+.darkmode .table > :not(caption) > * > * {
+  color: #fff !important;
+}
+
+.darkmode select.form-field {
+  color: #fff !important;
+}
+
+.darkmode .form-box input::placeholder, .darkmode .form-box textarea::placeholder, .darkmode .footer-form input::placeholder, .darkmode .form_field input::placeholder {
+  color: #fff !important;
+}
+
+.darkmode .form-box input, .darkmode .form-box textarea, .darkmode .form_field input {
+  background-color: rgb(32, 32, 32);
+}
+
+.darkmode .blog-single-box, .darkmode .checkout-box {
+  background-color: rgb(32, 32, 32);
+}
+
+.darkmode .services-section, .darkmode .shop-two-section {
+  background-color: rgb(32, 32, 32);
+}
+
+.darkmode .services-single-box, .darkmode .single-shops {
+  border: 1px solid #808080;
+}
+
+.darkmode .footer-form button {
+  background-color: rgb(32, 32, 32);
+}
+
+.darkmode .blog-section .owl-prev i, .darkmode .blog-section .owl-next i {
+  background-color: rgb(32, 32, 32);
+}
+
+.darkmode .form-box select, .darkmode select.form-field {
+  background-color: rgb(32, 32, 32);
+}
+
+.darkmode input.form-field:not([type="submit"]):not([type="checkbox"]):not( [type="radio"] ):not([type="range"]) {
+  background-color: rgb(32, 32, 32);
+}
+
+.darkmode .why-choose-section {
+  background-image: url(../static/img/image/why-d-bg.png);
+}
+
+/* .darkmode .form_field_inner input,
+.darkmode .blog-section .owl-next i
+.darkmode .section-button a
+.darkmode .feature-section
+.darkmode .table>:not(caption)>*>*
+.darkmode .form_field input{
+  background-color: rgb(10, 10, 10);
+} */
+
